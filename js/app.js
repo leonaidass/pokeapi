@@ -9,6 +9,9 @@ const getRandomInit= (min, max)=> {
     fetchData()
   })
 
+  const boton =document.querySelector('.btn');
+  console.log(boton)
+
   const fetchData = async ()=>{
     const num=getRandomInit(1,151)
     try{
